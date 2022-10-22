@@ -1,0 +1,20 @@
+.Empty_container {
+  display: grid;
+  place-content: center;
+}
+
+.Empty_container img {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.Empty_container p {
+  text-align: center;
+  font-size: var(--lg);
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 20px;
+  color: var(--white);
+  background-color: var(--hospital-green);
+}

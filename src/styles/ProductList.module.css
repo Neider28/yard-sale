@@ -1,0 +1,25 @@
+.ProductSection {
+	width: 100%;
+	position: relative;
+	padding: 100px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: var(--white);
+}
+
+.ProductList {
+	width: 900px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	gap: 26px;
+	place-content: center;
+	place-self: center;
+}
+
+@media (max-width: 640px) {
+	.ProductList {
+		width: 100%;
+		grid-template-columns: repeat(auto-fill, 140px);
+	}
+}

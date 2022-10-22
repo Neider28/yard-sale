@@ -1,0 +1,47 @@
+.Paginate_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Paginate_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Paginate_title {
+  margin-bottom: 20px;
+}
+
+.Paginate_title p {
+  font-weight: 500;
+  font-size: var(--md);
+  color: var(--very-dark-pink);
+}
+
+.nav_paginate {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_paginate a {
+  text-decoration: none;
+  margin: 0px 5px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.nav_paginate .icon_paginate {
+  color: var(--hospital-green);
+  font-size: 22.5px;
+}
+
+.item_current {
+  color: var(--hospital-green);
+}
+
+.item_no_current {
+  color: var(--very-dark-pink);
+}

@@ -7,7 +7,7 @@ const nextConfig = {
   },
   compress: true,
   images: {
-    domains: ['api.lorem.space', 'placeimg.com', 'cdn.pixabay.com', 'www.pngkey.com']
+    domains: ['api.lorem.space', 'placeimg.com', 'cdn.pixabay.com', 'www.pngkey.com', "picsum.photos"]
   }
 };
 
